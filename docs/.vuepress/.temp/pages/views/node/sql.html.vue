@@ -1,0 +1,47 @@
+<template><div><h1 id="nodejs服务端" tabindex="-1"><a class="header-anchor" href="#nodejs服务端" aria-hidden="true">#</a> nodejs服务端</h1>
+<h1 id="sql" tabindex="-1"><a class="header-anchor" href="#sql" aria-hidden="true">#</a> SQL</h1>
+<h2 id="一、基本用法" tabindex="-1"><a class="header-anchor" href="#一、基本用法" aria-hidden="true">#</a> 一、基本用法</h2>
+<h3 id="查询" tabindex="-1"><a class="header-anchor" href="#查询" aria-hidden="true">#</a> 查询</h3>
+<p>SELECT 列 FROM 表 (*为所有)
+查询表user中id等于1的数据</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> <span class="token keyword">user</span> <span class="token keyword">WHERE</span> id <span class="token operator">=</span> <span class="token number">1</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="插入" tabindex="-1"><a class="header-anchor" href="#插入" aria-hidden="true">#</a> 插入</h3>
+<p>INSERT INTO 表 (列1,列2) VALUES (值1,值2)
+插入表user数据，name等于张三，pwd等于123456</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> <span class="token keyword">user</span> <span class="token punctuation">(</span>name<span class="token punctuation">,</span>pwd<span class="token punctuation">)</span> <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token string">'张三'</span><span class="token punctuation">,</span><span class="token string">'123456'</span><span class="token punctuation">)</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="修改" tabindex="-1"><a class="header-anchor" href="#修改" aria-hidden="true">#</a> 修改</h3>
+<p>UPDATE 表 SET 列 = 值 WHERE 列 = 值
+修改表user中id等于2的数据，pwd为123123</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">UPDATE</span> <span class="token keyword">user</span> <span class="token keyword">SET</span> pwd <span class="token operator">=</span> <span class="token string">'123123'</span> <span class="token keyword">WHERE</span> id <span class="token operator">=</span> <span class="token number">2</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>修改多个列</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">UPDATE</span> <span class="token keyword">user</span> <span class="token keyword">SET</span> pwd <span class="token operator">=</span> <span class="token string">'123123'</span><span class="token punctuation">,</span> <span class="token keyword">status</span> <span class="token operator">=</span> <span class="token number">1</span> <span class="token keyword">WHERE</span> id <span class="token operator">=</span> <span class="token number">2</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="删除" tabindex="-1"><a class="header-anchor" href="#删除" aria-hidden="true">#</a> 删除</h3>
+<p>DELETE FROM 表 WHERE 列 = 值
+删除user表中id等于3的数据</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">DELETE</span> <span class="token keyword">FROM</span> <span class="token keyword">user</span> <span class="token keyword">WHERE</span> id <span class="token operator">=</span> <span class="token number">3</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="二、" tabindex="-1"><a class="header-anchor" href="#二、" aria-hidden="true">#</a> 二、</h2>
+<h3 id="where字句" tabindex="-1"><a class="header-anchor" href="#where字句" aria-hidden="true">#</a> WHERE字句</h3>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token keyword">WHERE</span> id <span class="token operator">=</span> <span class="token number">3</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token keyword">WHERE</span> id <span class="token operator">!=</span> <span class="token number">3</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token keyword">WHERE</span> id <span class="token operator">></span> <span class="token number">3</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token keyword">WHERE</span> id <span class="token operator">&lt;</span> <span class="token number">3</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token keyword">WHERE</span> id <span class="token operator">&lt;</span> <span class="token number">3</span> <span class="token operator">AND</span> <span class="token keyword">status</span><span class="token operator">=</span><span class="token number">0</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token keyword">WHERE</span> id <span class="token operator">&lt;</span> <span class="token number">3</span> <span class="token operator">OR</span> name<span class="token operator">=</span><span class="token string">'张三'</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="排序" tabindex="-1"><a class="header-anchor" href="#排序" aria-hidden="true">#</a> 排序</h3>
+<p>根据id升序排序</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> <span class="token keyword">user</span> <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> id <span class="token keyword">ASC</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>根据name降序排序</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> <span class="token keyword">user</span> <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> name <span class="token keyword">DESC</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>多重排序</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token keyword">FROM</span> <span class="token keyword">user</span> <span class="token keyword">ORDER</span> <span class="token keyword">BY</span> id <span class="token keyword">ASC</span><span class="token punctuation">,</span>name <span class="token keyword">DESC</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="函数" tabindex="-1"><a class="header-anchor" href="#函数" aria-hidden="true">#</a> 函数</h3>
+<p>COUNT(*)  返回条数</p>
+<p>查询user表中status为0的总条数</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">FROM</span> <span class="token keyword">user</span> <span class="token keyword">WHERE</span> <span class="token keyword">status</span> <span class="token operator">=</span> <span class="token number">0</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>AS  设置别名</p>
+<p>将查询出的结果，列名设置别名为total</p>
+<div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="language-sql"><code><span class="token keyword">SELECT</span> <span class="token function">COUNT</span><span class="token punctuation">(</span><span class="token operator">*</span><span class="token punctuation">)</span> <span class="token keyword">AS</span> total <span class="token keyword">FROM</span> <span class="token keyword">user</span> <span class="token keyword">WHERE</span> <span class="token keyword">status</span> <span class="token operator">=</span> <span class="token number">0</span>
+<span class="token keyword">SELECT</span> name <span class="token keyword">AS</span> uname<span class="token punctuation">,</span>pwd <span class="token keyword">AS</span> pass <span class="token keyword">FROM</span> <span class="token keyword">user</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+

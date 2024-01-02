@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-2bffbd3c\",\"path\":\"/views/other/buju.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"createdTime\":1689930353000,\"updatedTime\":1689930353000,\"contributors\":[{\"name\":\"kikii9\",\"email\":\"2469618003@qq.com\",\"commits\":1}]},\"filePathRelative\":\"views/other/布局.md\"}")

@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-2fa1f4da\",\"path\":\"/basic/vue%E6%BA%90%E7%A0%81.html\",\"title\":\"vue源码解析\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"basic/vue源码.md\"}")
