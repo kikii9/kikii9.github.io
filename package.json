@@ -1,7 +1,7 @@
 {
   "name": "press",
   "version": "1.0.0",
-  "description": "",
+  "description": "npm init -y",
   "main": "index.js",
   "devDependencies": {
     "vuepress": "^2.0.0-beta.66",
@@ -14,5 +14,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  }
 }
