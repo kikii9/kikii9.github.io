@@ -3,18 +3,20 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"E:/work/my-blog/.temp/pages/index.html.vue")),
-  // path: /Java/java%E5%9F%BA%E7%A1%80.html
-  "v-3a902a6a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3a902a6a" */"E:/work/my-blog/.temp/pages/Java/java基础.html.vue")),
   // path: /basic/HTML.html
   "v-76a6b158": defineAsyncComponent(() => import(/* webpackChunkName: "v-76a6b158" */"E:/work/my-blog/.temp/pages/basic/HTML.html.vue")),
   // path: /basic/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82.html
   "v-530f4e52": defineAsyncComponent(() => import(/* webpackChunkName: "v-530f4e52" */"E:/work/my-blog/.temp/pages/basic/网络请求.html.vue")),
+  // path: /Java/java%E5%9F%BA%E7%A1%80.html
+  "v-3a902a6a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3a902a6a" */"E:/work/my-blog/.temp/pages/Java/java基础.html.vue")),
+  // path: /notes/%E5%9B%BE%E8%A7%A3TCPIP.html
+  "v-13d99a9d": defineAsyncComponent(() => import(/* webpackChunkName: "v-13d99a9d" */"E:/work/my-blog/.temp/pages/notes/图解TCPIP.html.vue")),
   // path: /other/git.html
   "v-616c639f": defineAsyncComponent(() => import(/* webpackChunkName: "v-616c639f" */"E:/work/my-blog/.temp/pages/other/git.html.vue")),
   // path: /other/npm.html
   "v-c2235fb4": defineAsyncComponent(() => import(/* webpackChunkName: "v-c2235fb4" */"E:/work/my-blog/.temp/pages/other/npm.html.vue")),
-  // path: /notes/%E5%9B%BE%E8%A7%A3TCPIP.html
-  "v-13d99a9d": defineAsyncComponent(() => import(/* webpackChunkName: "v-13d99a9d" */"E:/work/my-blog/.temp/pages/notes/图解TCPIP.html.vue")),
+  // path: /other/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE.html
+  "v-465bf634": defineAsyncComponent(() => import(/* webpackChunkName: "v-465bf634" */"E:/work/my-blog/.temp/pages/other/vscode快捷键.html.vue")),
   // path: /network/%E5%9F%BA%E7%A1%80.html
   "v-79a70387": defineAsyncComponent(() => import(/* webpackChunkName: "v-79a70387" */"E:/work/my-blog/.temp/pages/network/基础.html.vue")),
   // path: /network/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.html
@@ -57,8 +59,6 @@ export const pagesComponents = {
   "v-5f1edfbe": defineAsyncComponent(() => import(/* webpackChunkName: "v-5f1edfbe" */"E:/work/my-blog/.temp/pages/views/node/sql.html.vue")),
   // path: /views/node/websocket%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html
   "v-7525d4a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-7525d4a1" */"E:/work/my-blog/.temp/pages/views/node/websocket基本使用.html.vue")),
-  // path: /views/question/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E5%90%88.html
-  "v-70cbb58c": defineAsyncComponent(() => import(/* webpackChunkName: "v-70cbb58c" */"E:/work/my-blog/.temp/pages/views/question/前端面试题整合.html.vue")),
   // path: /views/uniapp/request%E5%B0%81%E8%A3%85.html
   "v-63d929ea": defineAsyncComponent(() => import(/* webpackChunkName: "v-63d929ea" */"E:/work/my-blog/.temp/pages/views/uniapp/request封装.html.vue")),
   // path: /views/uniapp/uniapp%E5%9F%BA%E7%A1%80.html
@@ -71,8 +71,8 @@ export const pagesComponents = {
   "v-5bd7b871": defineAsyncComponent(() => import(/* webpackChunkName: "v-5bd7b871" */"E:/work/my-blog/.temp/pages/views/vue/vue3基础.html.vue")),
   // path: /views/vue/vue3%E9%A1%B9%E7%9B%AE.html
   "v-42e96e57": defineAsyncComponent(() => import(/* webpackChunkName: "v-42e96e57" */"E:/work/my-blog/.temp/pages/views/vue/vue3项目.html.vue")),
+  // path: /views/question/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E5%90%88.html
+  "v-70cbb58c": defineAsyncComponent(() => import(/* webpackChunkName: "v-70cbb58c" */"E:/work/my-blog/.temp/pages/views/question/前端面试题整合.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"E:/work/my-blog/.temp/pages/404.html.vue")),
-  // path: /other/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE.html
-  "v-465bf634": defineAsyncComponent(() => import(/* webpackChunkName: "v-465bf634" */"E:/work/my-blog/.temp/pages/other/vscode快捷键.html.vue")),
 }

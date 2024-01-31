@@ -1,18 +1,20 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"E:/work/my-blog/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /Java/java%E5%9F%BA%E7%A1%80.html
-  "v-3a902a6a": () => import(/* webpackChunkName: "v-3a902a6a" */"E:/work/my-blog/.temp/pages/Java/java基础.html.js").then(({ data }) => data),
   // path: /basic/HTML.html
   "v-76a6b158": () => import(/* webpackChunkName: "v-76a6b158" */"E:/work/my-blog/.temp/pages/basic/HTML.html.js").then(({ data }) => data),
   // path: /basic/%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82.html
   "v-530f4e52": () => import(/* webpackChunkName: "v-530f4e52" */"E:/work/my-blog/.temp/pages/basic/网络请求.html.js").then(({ data }) => data),
+  // path: /Java/java%E5%9F%BA%E7%A1%80.html
+  "v-3a902a6a": () => import(/* webpackChunkName: "v-3a902a6a" */"E:/work/my-blog/.temp/pages/Java/java基础.html.js").then(({ data }) => data),
+  // path: /notes/%E5%9B%BE%E8%A7%A3TCPIP.html
+  "v-13d99a9d": () => import(/* webpackChunkName: "v-13d99a9d" */"E:/work/my-blog/.temp/pages/notes/图解TCPIP.html.js").then(({ data }) => data),
   // path: /other/git.html
   "v-616c639f": () => import(/* webpackChunkName: "v-616c639f" */"E:/work/my-blog/.temp/pages/other/git.html.js").then(({ data }) => data),
   // path: /other/npm.html
   "v-c2235fb4": () => import(/* webpackChunkName: "v-c2235fb4" */"E:/work/my-blog/.temp/pages/other/npm.html.js").then(({ data }) => data),
-  // path: /notes/%E5%9B%BE%E8%A7%A3TCPIP.html
-  "v-13d99a9d": () => import(/* webpackChunkName: "v-13d99a9d" */"E:/work/my-blog/.temp/pages/notes/图解TCPIP.html.js").then(({ data }) => data),
+  // path: /other/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE.html
+  "v-465bf634": () => import(/* webpackChunkName: "v-465bf634" */"E:/work/my-blog/.temp/pages/other/vscode快捷键.html.js").then(({ data }) => data),
   // path: /network/%E5%9F%BA%E7%A1%80.html
   "v-79a70387": () => import(/* webpackChunkName: "v-79a70387" */"E:/work/my-blog/.temp/pages/network/基础.html.js").then(({ data }) => data),
   // path: /network/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8.html
@@ -55,8 +57,6 @@ export const pagesData = {
   "v-5f1edfbe": () => import(/* webpackChunkName: "v-5f1edfbe" */"E:/work/my-blog/.temp/pages/views/node/sql.html.js").then(({ data }) => data),
   // path: /views/node/websocket%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html
   "v-7525d4a1": () => import(/* webpackChunkName: "v-7525d4a1" */"E:/work/my-blog/.temp/pages/views/node/websocket基本使用.html.js").then(({ data }) => data),
-  // path: /views/question/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E5%90%88.html
-  "v-70cbb58c": () => import(/* webpackChunkName: "v-70cbb58c" */"E:/work/my-blog/.temp/pages/views/question/前端面试题整合.html.js").then(({ data }) => data),
   // path: /views/uniapp/request%E5%B0%81%E8%A3%85.html
   "v-63d929ea": () => import(/* webpackChunkName: "v-63d929ea" */"E:/work/my-blog/.temp/pages/views/uniapp/request封装.html.js").then(({ data }) => data),
   // path: /views/uniapp/uniapp%E5%9F%BA%E7%A1%80.html
@@ -69,8 +69,8 @@ export const pagesData = {
   "v-5bd7b871": () => import(/* webpackChunkName: "v-5bd7b871" */"E:/work/my-blog/.temp/pages/views/vue/vue3基础.html.js").then(({ data }) => data),
   // path: /views/vue/vue3%E9%A1%B9%E7%9B%AE.html
   "v-42e96e57": () => import(/* webpackChunkName: "v-42e96e57" */"E:/work/my-blog/.temp/pages/views/vue/vue3项目.html.js").then(({ data }) => data),
+  // path: /views/question/%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%A2%98%E6%95%B4%E5%90%88.html
+  "v-70cbb58c": () => import(/* webpackChunkName: "v-70cbb58c" */"E:/work/my-blog/.temp/pages/views/question/前端面试题整合.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"E:/work/my-blog/.temp/pages/404.html.js").then(({ data }) => data),
-  // path: /other/vscode%E5%BF%AB%E6%8D%B7%E9%94%AE.html
-  "v-465bf634": () => import(/* webpackChunkName: "v-465bf634" */"E:/work/my-blog/.temp/pages/other/vscode快捷键.html.js").then(({ data }) => data),
 }
