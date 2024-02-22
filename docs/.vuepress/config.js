@@ -42,6 +42,10 @@ export default defineUserConfig({
         text: "其他",
         children: getNav("other"),
       },
+      {
+        text: "项目",
+        children: getNav("project"),
+      },
     ],
   }),
 });
