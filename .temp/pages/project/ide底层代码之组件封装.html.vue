@@ -20,7 +20,7 @@
             }
         })
     }
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="常用的注释有哪些" tabindex="-1"><a class="header-anchor" href="#常用的注释有哪些" aria-hidden="true">#</a> 常用的注释有哪些</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="常用的注释有哪些" tabindex="-1"><a class="header-anchor" href="#常用的注释有哪些" aria-hidden="true">#</a> 常用的注释有哪些</h3>
 <div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code>@param：用于描述函数或方法的参数，包括参数的名称、类型、描述等。
 @returns：用于描述函数或方法的返回值类型和含义。
 @throws：用于描述函数或方法可能抛出的异常类型和描述。
