@@ -1,0 +1,1 @@
+const i=JSON.parse('{"key":"v-78b4669a","path":"/basic_config/vite.config.js%E9%85%8D%E7%BD%AE.html","title":"20240506","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1722327649000,"contributors":[{"name":"kikii9","email":"2469618003@qq.com","commits":1}]},"filePathRelative":"basic_config/vite.config.js配置.md"}');export{i as data};
